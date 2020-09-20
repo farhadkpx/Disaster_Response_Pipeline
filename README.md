@@ -59,4 +59,7 @@ Below are a few screenshots of the web app.
 3. Go to http://localhost:3001 to view the web app
 
 ## Installations
-Anaconda, Nltk, re, SQLAlchemy
+punkt, wordne, stopwords, Nltk, re, SQLAlchemy
+
+## Licensing, Authors, Acknowledgements
+Udacity must get the credit as the true provider of starter programming codes along with data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
