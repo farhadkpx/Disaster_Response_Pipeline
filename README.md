@@ -1,39 +1,40 @@
 ## Disaster_Response_Pipeline Project
 
 ## Project portrayal
-In this project, we will build a model corresponding with ML pipeline to classify real messages those were sent during natural disasters. These message can be categorized as medical help, aid related, search and rescue type.This upcoming ML processes are pipeline will helps us to categorize those messages in such a way that we can send messages to specific appropriate disaster relief agency.
+In this project, we will build a ML model processes sequenced in a pipeline to classify real messages those were sent during real natural disasters. These messages can be categorized as medical help, aid related, search and rescue type etc.This ML pipeline steps will helps us to categorize those messages in such a way that we can send messages to specific appropriate disaster relief agencies.
 
 This project will involve the building
 - basic ETL that loads, categorizes, merges, cleans and Stores data in a SQLite database
-- Machine Learning model pipeline builds a text processing then Trains and tunes using GridSearchCV
+- Machine Learning model pipeline builds a text processing system then trains and tunes the model using GridSearchCV hyper-parametarization
 - Flask Web App visualizes classified messages result.
 
-This is also a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
+This is a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
 
-In this project we'll be applying our  natural language processing,  machine learning and data engineering skills as a data scientist. Analyzing disaster data from Figure Eight to build a model for an API that classifies disaster messages. This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!
+# Out task
+In this project we'll be applying our  natural language processing,  machine learning and data engineering skills as a data scientist. Analyzing disaster data from Figure Eight to build a model for an API that classifies disaster messages. This project will show off our software skills, including our ability to create basic data pipelines and write clean, organized code!
 
 Our project will include a Flask web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
 
-Below are a few screenshots of the web app.
+Below a screenshots of the web app.
 ![Screenshot of Web App](webapp_screenshot.JPG)
 
 ## File Description
 ~~~~~~~
         disaster_response_pipeline
-          |-- app
-                |-- templates
-                        |-- go.html
-                        |-- master.html
-                |-- run.py
+          |--app
+                |- templates
+                        |- go.html
+                        |- master.html
+                |- run.py
           |-- data
-                |-- disaster_message.csv
-                |-- disaster_categories.csv
-                |-- DisasterResponse.db
-                |-- ETL Pipeline Preparation.ipynb
-                |-- process_data.py
+                |- disaster_message.csv
+                |- disaster_categories.csv
+                |- DisasterResponse.db
+                |- ETL Pipeline Preparation.ipynb
+                |- process_data.py
           |-- models
-                |-- ML Pipeline Preparation.ipynb
-                |-- train_classifier.py
+                |- ML Pipeline Preparation.ipynb
+                |- train_classifier.py
 ~~~~~~~
 
 ### Description of key files
