@@ -38,26 +38,11 @@ Below are a few screenshots of the web app.
                 |-- train_classifier.py
 ~~~~~~~
 ### Description of key files
-1. run.py: Script to run the web app
-2. disaster_message.csv: Contains the original disaster messages
-3. disaster_categories.csv: Contains the labels of the disaster messages
-4. process_data.py: Runs the ETL pipeline to process data from both disaster_message.csv and disaster_categories.csv and load them into an SQLite database, DisasterResponse.db.
-5. train_classifier.py: Runs the ML pipeline to classify the messages. The pipeline will build the model, optimize it using grid search and print the model's evaluation. It will then save the classifier model.
-
-## Pre-trained GloVe Embeddings (Optional)
-If you want to use the MLP Neural Network model with pre-trained GloVe embeddings, you need to download the pre-trained embeddings from this [link](http://nlp.stanford.edu/data/glove.6B.zip). The downloaded files should be placed in the following folder structure:
-
-~~~~~~~
-        disaster_response_pipeline
-          |-- app
-          |-- data
-          |-- glove.6B
-               |--- glove.6B.50d.txt
-               |--- glove.6B.100d.txt
-               |--- glove.6B.200d.txt
-               |--- glove.6B.300d.txt
-          |-- models
-~~~~~~~
+1. disaster_message.csv: Includes the original disaster messages
+2. disaster_categories.csv: Includes the labels of the disaster messages
+3. process_data.py: Runs the ETL pipeline to process data from both disaster_message.csv and disaster_categories.csv and load them into an SQLite database, DisasterResponse.db.
+4. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using grid search and print the model's evaluation. It will then save the classifier.pk file.
+5. run.py: Script to run the web app for the user
 
 ## Instructions:
 1. In the disaster_response_pipeline directory
