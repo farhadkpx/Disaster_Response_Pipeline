@@ -16,7 +16,7 @@ In this project we'll be applying our  natural language processing,  machine lea
 Our project will include a Flask web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
 
 Below a screenshots of the web app.
-![Screenshot of the Web App]("App_screenshot.JPEG")
+![Screenshot of the Web App]("App_screenshot.JPG")
 
 ## File Description
 ~~~~~~~
