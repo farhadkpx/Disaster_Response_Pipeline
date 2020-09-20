@@ -44,17 +44,14 @@ Below are a few screenshots of the web app.
 4. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using grid search and print the model's evaluation. It will then save the classifier.pk file.
 5. run.py: Script to run the web app for the user
 
-## Instructions:
-1. In the disaster_response_pipeline directory
+## Instructions
+1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
         
-    - To run ML pipeline that trains classifier (Adaboost with Tfidf Vectorizer) and saves
+    - To run ML pipeline that trains classifier (RandomForest with Tfidf Vectorizer) and saves to a pickle file
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
-        
-    - To run ML pipeline that trains classifier (MLP with GloVe Embeddings) and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl --model_type 2`
 
 2. In the app directory, run the following command to run the web app.
     `python run.py`
