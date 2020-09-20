@@ -27,15 +27,15 @@ Below a screenshots of the web app.
                              |- master.html
                 |- run.py
          | data |
-                |- disaster_message.csv
-                |- disaster_categories.csv
-                |- DisasterResponse.db
+                - disaster_message.csv
+                - disaster_categories.csv
+                - DisasterResponse.db
           | ETL |
-                |- ETL Pipeline Preparation.ipynb
-                |- process_data.py
+                - ETL Pipeline Preparation.ipynb
+                - process_data.py
     | ML models |
-                |- ML Pipeline Preparation.ipynb
-                |- train_classifier.py
+                - ML Pipeline Preparation.ipynb
+                - train_classifier.py
 ~~~~~~~
 
 ### Description of key files
