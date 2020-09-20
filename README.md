@@ -1,5 +1,4 @@
 ## Disaster_Response_Pipeline Project
-An ETL + ML + Python App for Udacity Data Science Nano Degree course
 
 ## Project portrayal
 In this project, we will build a model corresponding with ML pipeline to classify real messages those were sent during natural disasters. These message can be categorized as medical help, aid related, search and rescue type.This upcoming ML processes are pipeline will helps us to categorize those messages in such a way that we can send messages to specific appropriate disaster relief agency.
@@ -33,17 +32,18 @@ Below are a few screenshots of the web app.
                 |-- ETL Pipeline Preparation.ipynb
                 |-- process_data.py
           |-- models
-                |-- glove_vectorizer.py
                 |-- ML Pipeline Preparation.ipynb
                 |-- train_classifier.py
 ~~~~~~~
 ### Description of key files
+~~~~~~~~
 1. disaster_message.csv: Includes the original disaster messages
 2. disaster_categories.csv: Includes the labels of the disaster messages
 3. process_data.py: Runs the ETL pipeline to process data from both disaster_message.csv and disaster_categories.csv and load them into an SQLite database, DisasterResponse.db.
-4. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using grid search and print the model's evaluation. It will then save the classifier.pk file.
-5. run.py: Script to run the web app for the user
-
+4. DisasterResponse.db: output of the ETL pipeline, i.e. SQLite database containing messages and categories data
+5. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using grid search and print the model's evaluation. It will then save the classifier.pk file.
+6. run.py: Script to run the web app for the user
+~~~~~~~~~
 ## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
 
