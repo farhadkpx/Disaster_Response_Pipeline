@@ -21,18 +21,19 @@ Below a screenshots of the web app.
 ## File Description
 ~~~~~~~
         disaster_response_pipeline
-          |--app
-                |- templates
-                        |- go.html
-                        |- master.html
+          | app |
+                |- templates |
+                             |- go.html
+                             |- master.html
                 |- run.py
-          |-- data
+         | data |
                 |- disaster_message.csv
                 |- disaster_categories.csv
                 |- DisasterResponse.db
+          | ETL |
                 |- ETL Pipeline Preparation.ipynb
                 |- process_data.py
-          |-- models
+    | ML models |
                 |- ML Pipeline Preparation.ipynb
                 |- train_classifier.py
 ~~~~~~~
