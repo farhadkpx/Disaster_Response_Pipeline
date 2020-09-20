@@ -15,8 +15,7 @@ In this project we'll be applying our  natural language processing,  machine lea
 
 Our project will include a Flask web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
 
-![Screenshot of the Web App]("App_screenshot.jpg")
-
+<img src="Disaster_Response_Pipeline/App_screenshot.jpg" width="80%" alt="project web app">
 ## File Description
 ~~~~~~~
         disaster_response_pipeline
