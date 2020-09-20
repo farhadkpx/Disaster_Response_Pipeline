@@ -32,11 +32,6 @@ Below are a few screenshots of the web app.
                 |-- DisasterResponse.db
                 |-- ETL Pipeline Preparation.ipynb
                 |-- process_data.py
-          |-- glove.6B
-                |--- glove.6B.50d.txt
-                |--- glove.6B.100d.txt
-                |--- glove.6B.200d.txt
-                |--- glove.6B.300d.txt
           |-- models
                 |-- glove_vectorizer.py
                 |-- ML Pipeline Preparation.ipynb
