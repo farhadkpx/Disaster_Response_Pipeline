@@ -2,16 +2,20 @@
 An ETL + ML + Python App for Udacity Data Science Nano Degree course
 
 ## Project portrayal
-In this project, we will build a model to classify messages that are sent during disasters. There are 36 pre-defined categories, and examples of these categories include Aid Related, Medical Help, Search And Rescue, etc. By classifying these messages, we can allow these messages to be sent to the appropriate disaster relief agency. This project will involve the building of a basic ETL and Machine Learning pipeline to facilitate the task. This is also a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
+In this project, we will build a model corresponding with ML pipeline to classify real messages those were sent during natural disasters. These message can be categorized as medical help, aid related, search and rescue type.This upcoming ML processes are pipeline will helps us to categorize those messages in such a way that we can send messages to specific appropriate disaster relief agency.
 
-Two types of models are available to classify the messages. 
+This project will involve the building
+- basic ETL that loads, categorizes, merges, cleans and Stores data in a SQLite database
+- Machine Learning model pipeline builds a text processing then Trains and tunes using GridSearchCV
+- Flask Web App visualizes classified messages result.
 
-    1. The first model type, which is also the default option, is an Adaboost Classifier utilizing Tfidf vectorizer to transform the    messages. 
+This is also a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
 
-    2. The second model is an MLP Neural Network utilizing pre-trained GloVe embeddings to transform the messages. It will take the simple average of word vectors to get the message vector.
+In this project we'll be applying our  natural language processing,  machine learning and data engineering skills as a data scientist. Analyzing disaster data from Figure Eight to build a model for an API that classifies disaster messages. This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!
 
-Finally, this project contains a web app where you can input a message and get classification results.
+Our project will include a Flask web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. 
 
+Below are a few screenshots of the web app.
 ![Screenshot of Web App](webapp_screenshot.JPG)
 
 ## File Description
