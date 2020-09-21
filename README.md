@@ -38,16 +38,16 @@ Here is a single screenshot comes out as a product of our web-app.
                                                                                                   - train_classifier.py
 ~~~~~~~
 
-### Description of key files
+### Description of key files:
 ~~~~~~~~
-1. disaster_message.csv: Includes the original disaster messages
-2. disaster_categories.csv: Includes the target-labels of the disaster messages
+1. disaster_message.csv: Includes original disaster messages.
+2. disaster_categories.csv: Includes target-labels of the disaster messages.
 3. process_data.py: Runs the ETL pipeline to process data from both disaster_message.csv and disaster_categories.csv files and load them into an SQLite database named DisasterResponse.db.
-4. DisasterResponse.db: The SQLite database contains file named 'messages' with disaster related messages and their categories
-5. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using grid search cv and print the model's evaluation. It will then save the ML processes to a classifier.pk file.
-6. run.py: Script to run the web app for the users
+4. DisasterResponse.db: The SQLite database contains file named 'messages' with disaster related messages and their categories.
+5. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using GridSearchCV and print the model's evaluation with a classifcation report. It will then save the ML processes to a classifier.pk file to use in the run.py app.
+6. run.py: Script runs the web app for the users.
 ~~~~~~~~~
-## Instructions
+## Instructions running app:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
