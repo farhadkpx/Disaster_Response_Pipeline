@@ -8,7 +8,7 @@ This project will involve these programmatic synchronization:
 - Machine Learning model pipeline builds a text processing system then trains and tunes the model using GridSearchCV hyper-parametarization.
 - Flask Web App visualizes classified messages result.
 
-This is a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
+This is a multi-label classification task, a message can belong to one or more classification categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
 
 ## Our task
 In this project we'll be applying our  natural language processing,  machine learning and data engineering skills as a data scientist.This project will show off our software skills, including our ability to create basic data pipelines and write clean, organized code!
