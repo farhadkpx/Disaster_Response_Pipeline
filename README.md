@@ -1,11 +1,11 @@
-## Disaster_Response_Pipeline Project
+## Disaster Response Pipeline Project
 
 ## Project portrayal
 In this project, we will build a Machine Learning(ML) model with all necessary steps sequenced in a pipeline to classify real messages sent during real natural disasters. These messages can be categorized as medical help, aid related, search and rescue type etc. For this project we have altogether 36 messages categories. The ML pipeline progression will synchronize all programming steps to categorize those messages in such a way that after processing, we can send those specific messages to appropriate disaster relief agencies.
 
 This project will involve these programmatic synchronization:
-- basic ETL that loads, categorizes, merges, cleans and Stores data in a SQLite database
-- Machine Learning model pipeline builds a text processing system then trains and tunes the model using GridSearchCV hyper-parametarization
+- basic ETL that loads, categorizes, merges, cleans and Stores data in a SQLite database.
+- Machine Learning model pipeline builds a text processing system then trains and tunes the model using GridSearchCV hyper-parametarization.
 - Flask Web App visualizes classified messages result.
 
 This is a multi-label classification task, since a message can belong to one or more categories. We will be working with a data set provided by [Figure Eight](https://www.figure-eight.com/) containing real messages that were sent during disaster events.
