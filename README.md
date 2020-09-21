@@ -23,19 +23,19 @@ Here is a single screenshot comes out as a product of our web-app.
         disaster_response_pipeline
           | app |
           |- templates | folder 1 |
-                             |- go.html
-                             |- master.html
-                             |- run.py
-         | data | folder 2 |
-                - disaster_message.csv
-                - disaster_categories.csv
-                - DisasterResponse.db
-          | ETL | folder 3 |
-                - ETL Pipeline Preparation.ipynb
-                - process_data.py
-    | ML models | folder 4 |
-                - ML Pipeline Preparation.ipynb
-                - train_classifier.py
+                                  |- go.html
+                                  |- master.html
+                                  |- run.py
+                           | data | folder 2 |
+                                   - disaster_message.csv
+                                   - disaster_categories.csv
+                                   - DisasterResponse.db
+                                                             | ETL | folder 3 |
+                                                                   - ETL Pipeline Preparation.ipynb
+                                                                   - process_data.py
+                                                                                      | ML models | folder 4 |
+                                                                                                  - ML Pipeline Preparation.ipynb
+                                                                                                  - train_classifier.py
 ~~~~~~~
 
 ### Description of key files
