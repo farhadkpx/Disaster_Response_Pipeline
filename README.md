@@ -21,21 +21,19 @@ Here is a single screenshot comes out as a product of our web-app.
 ## File Description
 ~~~~~~~
         disaster_response_pipeline
-          | app |
-          |- templates | folder 1 |
-                                  |- go.html
-                                  |- master.html
-                                  |- run.py
-                           | data | folder 2 |
-                                   - disaster_message.csv
-                                   - disaster_categories.csv
-                                   - DisasterResponse.db
-                                                             | ETL | folder 3 |
-                                                                   - ETL Pipeline Preparation.ipynb
-                                                                   - process_data.py
-                                                                                      | ML models | folder 4 |
-                                                                                                  - ML Pipeline Processes.ipynb
-                                                                                                  - train_classifier.py
+          | app | folder 1 |
+                |- templates | folder 2 |
+                             |- go.html
+                             |- master.html
+                                            |- run.py
+                                            | data | folder 3 |
+                                                   - disaster_message.csv
+                                                   - disaster_categories.csv
+                                                   - ETL Pipeline Preparation.ipynb
+                                                   - process_data.py
+                                                                     | ML models | folder 4 |
+                                                                                 - ML Pipeline Processes.ipynb
+                                                                                 - train_classifier.py
 ~~~~~~~
 
 ### Description of key files:
