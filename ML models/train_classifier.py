@@ -20,11 +20,9 @@ from sklearn.utils import shuffle
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.ensemble import RandomForestClassifier
-#---------------------------------------------------------------------
-from sklearn.ensemble import AdaBoostClassifier
+
 from sklearn.metrics import classification_report, accuracy_score,\
  recall_score, precision_score, f1_score
-#---------------------------------------------------------------------
 
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split, GridSearchCV
