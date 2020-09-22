@@ -34,7 +34,7 @@ Here is a single screenshot comes out as a product of our web-app.
                                                                    - ETL Pipeline Preparation.ipynb
                                                                    - process_data.py
                                                                                       | ML models | folder 4 |
-                                                                                                  - ML Pipeline Preparation.ipynb
+                                                                                                  - ML Pipeline Processes.ipynb
                                                                                                   - train_classifier.py
 ~~~~~~~
 
