@@ -20,20 +20,25 @@ Here is a single screenshot comes out as a product of our web-app.
 
 ## File Description
 ~~~~~~~
-        disaster_response_pipeline
-          | app | folder 1 |
-                |- templates | folder 2 |
-                             |- go.html
-                             |- master.html
-                                            |- run.py
-                                            | data | folder 3 |
-                                                   - disaster_message.csv
-                                                   - disaster_categories.csv
-                                                   - ETL Pipeline Preparation.ipynb
-                                                   - process_data.py
-                                                                     | ML models | folder 4 |
-                                                                                 - ML Pipeline Processes.ipynb
-                                                                                 - train_classifier.py
+        disaster_response_pipeline (repository)
+              - README.md
+              - App_screenshot.jpg    
+                                   | app | folder 1 |
+                                         |- templates | sub folder 2 |- go.html |- master.html |
+                                          - Message_processing_screenshot_01.jpg
+                                          - Message_processing_screenshot_02.jpg
+                                          - app_screenshot_02.jpg
+                                          - run.py 
+                                          
+                                         | data | folder 3 |
+                                                  - disaster_message.csv
+                                                  - disaster_categories.csv
+                                                  - ETL Pipeline Preparation.ipynb
+                                                  - process_data.py
+                                                  
+                                         | ML models | folder 4 |
+                                         - ML Pipeline Processes.ipynb
+                                         - train_classifier.py
 ~~~~~~~
 
 ### Description of key files:
