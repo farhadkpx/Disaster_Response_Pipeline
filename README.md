@@ -42,7 +42,7 @@ Here is a single screenshot comes out as a product of our web-app.
 
 ~~~~~~~
 
-## Project submission link: [Github link](https://github.com/farhadkpx/Disaster_Response_Pipeline/)
+### Project submission link: [my project on Github](https://github.com/farhadkpx/Disaster_Response_Pipeline/)
 
 ### Description of key files:
 ~~~~~~~~
