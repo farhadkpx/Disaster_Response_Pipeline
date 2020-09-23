@@ -39,8 +39,9 @@ Here is a single screenshot comes out as a product of our web-app.
                                          | ML models | folder 4 |
                                          - ML Pipeline Processes.ipynb
                                          - train_classifier.py
-~~~~~~~
 
+~~~~~~~
+## Project submission link: 
 ### Description of key files:
 ~~~~~~~~
 1. disaster_message.csv: Includes original disaster messages.
@@ -50,7 +51,8 @@ Here is a single screenshot comes out as a product of our web-app.
 5. train_classifier.py: Runs the ML pipeline to classify the messages and optimize model using GridSearchCV and print the model's evaluation with a classifcation report. It will then save the ML processes to a classifier.pk file to use in the run.py app.
 6. run.py: Script runs the web app for the users.
 ~~~~~~~~~
-## Instructions running app:
+## Instructions running app:[Github link](https://github.com/farhadkpx/Disaster_Response_Pipeline/)
+
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
